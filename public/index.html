@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Broomes</title>
+    </head>
+    <body>
+        <div id="image-box">
+            <img src="https://images.pexels.com/photos/10005973/pexels-photo-10005973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Your Image" />
+            <div>
+                <h1>Altitude Air</h1>
+                <p>
+                    We promise to ensure that your well-being is taken care of while travelling with us. Boasting top in class fleet inventory and a 5 star
+                    approval for our in-flight experience, you know you are getting the best from Altitude with no attitude.
+                </p>
+            </div>
+        </div>
+        <div id="login-box">
+            <button id="login-button">Sign In</button>
+            <div class="headings">
+                <h1>Explore & Experience</h1>
+                <h5>Get onto your most comfortable journey yet. All the way upto.</h5>
+            </div>
+            <form id="get-started-form" action="/submit" method="post">
+                <div class="name-container">
+                    <input type="text" id="firstName" name="firstName" required placeholder="First Name" />
+
+                    <input type="text" placeholder="Last Name" id="lastName" name="lastName" required />
+                </div>
+
+                <input type="email" placeholder="Email" id="email" name="email" required />
+
+                <input type="text" placeholder="Username" id="username" name="username" required />
+
+                <input type="password" placeholder="Password" id="password" name="password" required />
+
+                <input type="password" placeholder="Confirm Password" id="confirmPassword" name="confirmPassword" required />
+
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+        <div id="toast"></div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
